@@ -18,3 +18,13 @@
 
 [CircleCI badge]: https://circleci.com/gh/codeaches/oauth2-authorization-and-resource-servers.svg?style=shield&circle-token=:circle-token
 [CircleCI]: https://circleci.com/gh/codeaches/oauth2-authorization-and-resource-servers
+
+oauth_client_token
+oauth_client_details
+oauth_access_token
+oauth_refresh_token
+authority
+credentials
+credentials_authorities
+oauth_code
+oauth_approvals
