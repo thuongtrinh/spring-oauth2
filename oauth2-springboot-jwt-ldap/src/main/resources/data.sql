@@ -72,6 +72,7 @@ token_id VARCHAR(255),
 token bytea,
 authentication bytea
 );
+
 drop table if exists oauth_code;
 create table oauth_code (
 code VARCHAR(255), authentication bytea
@@ -86,6 +87,7 @@ status VARCHAR(10),
 expiresAt TIMESTAMP,
 lastModifiedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
 drop table if exists ClientDetails;
 create table ClientDetails (
 appId VARCHAR(255) PRIMARY KEY,

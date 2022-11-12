@@ -1,0 +1,31 @@
+server:
+  port: 9082
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+security:
+  oauth2:
+    client:
+      messaging-client-auth-code:
+        client-id: exampleClient
+        client-secret: exampleSecret
+        grant-type: authorization_code
+        user-authorization-uri: http://localhost:8080/oauth/authorize
+        access-token-uri: http://localhost:8080/oauth/token
+        scope: read, write
+        pre-established-redirect-uri: http://localhost:8080/authorized
+        use-current-uri: false
+      messaging-client-client-creds:
+        client-id: exampleClient
+        client-secret: exampleSecret
+        grant-type: client_credentials
+        access-token-uri: http://localhost:8080/oauth/token
+        scope: read, write
+      messaging-client-password:
+        client-id: exampleClient
+        client-secret: exampleSecret
+        grant-type: password
+        access-token-uri: http://localhost:8080/oauth/token
+        scope: read, write
