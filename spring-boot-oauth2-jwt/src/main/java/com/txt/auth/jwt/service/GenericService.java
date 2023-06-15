@@ -1,7 +1,7 @@
-package ai.auth.jwt.service;
+package com.txt.auth.jwt.service;
 
-import ai.auth.jwt.domain.RandomCity;
-import ai.auth.jwt.domain.User;
+import com.txt.auth.jwt.entities.RandomCity;
+import com.txt.auth.jwt.entities.auth.User;
 
 import java.util.List;
 

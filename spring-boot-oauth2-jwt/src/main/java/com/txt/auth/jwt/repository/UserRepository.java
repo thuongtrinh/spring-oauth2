@@ -1,6 +1,6 @@
-package ai.auth.jwt.repository;
+package com.txt.auth.jwt.repository;
 
-import ai.auth.jwt.domain.User;
+import com.txt.auth.jwt.entities.auth.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

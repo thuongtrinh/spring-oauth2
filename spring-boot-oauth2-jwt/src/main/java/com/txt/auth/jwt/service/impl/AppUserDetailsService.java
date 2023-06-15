@@ -1,7 +1,7 @@
-package ai.auth.jwt.service.impl;
+package com.txt.auth.jwt.service.impl;
 
-import ai.auth.jwt.domain.User;
-import ai.auth.jwt.repository.UserRepository;
+import com.txt.auth.jwt.entities.auth.User;
+import com.txt.auth.jwt.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

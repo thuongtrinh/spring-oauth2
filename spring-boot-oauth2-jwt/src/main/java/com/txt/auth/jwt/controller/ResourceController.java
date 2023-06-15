@@ -1,8 +1,8 @@
-package ai.auth.jwt.controller;
+package com.txt.auth.jwt.controller;
 
-import ai.auth.jwt.domain.RandomCity;
-import ai.auth.jwt.domain.User;
-import ai.auth.jwt.service.GenericService;
+import com.txt.auth.jwt.entities.RandomCity;
+import com.txt.auth.jwt.entities.auth.User;
+import com.txt.auth.jwt.service.GenericService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -14,6 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/jwttest")
 public class ResourceController {
+
     @Autowired
     private GenericService userService;
 

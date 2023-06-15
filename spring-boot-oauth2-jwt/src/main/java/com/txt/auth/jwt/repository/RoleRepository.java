@@ -1,6 +1,6 @@
-package ai.auth.jwt.repository;
+package com.txt.auth.jwt.repository;
 
-import ai.auth.jwt.domain.Role;
+import com.txt.auth.jwt.entities.auth.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

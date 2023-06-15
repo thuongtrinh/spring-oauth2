@@ -1,4 +1,4 @@
-package ai.auth.jwt.config;
+package com.txt.auth.jwt.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

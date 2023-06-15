@@ -1,4 +1,4 @@
-package ai.auth.jwt.domain;
+package com.txt.auth.jwt.entities.auth;
 
 import javax.persistence.*;
 

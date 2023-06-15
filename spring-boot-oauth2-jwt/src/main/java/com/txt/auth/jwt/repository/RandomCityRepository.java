@@ -1,6 +1,6 @@
-package ai.auth.jwt.repository;
+package com.txt.auth.jwt.repository;
 
-import ai.auth.jwt.domain.RandomCity;
+import com.txt.auth.jwt.entities.RandomCity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

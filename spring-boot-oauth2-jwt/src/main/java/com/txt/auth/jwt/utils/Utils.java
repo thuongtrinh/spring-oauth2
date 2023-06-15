@@ -1,4 +1,4 @@
-package ai.auth.jwt;
+package com.txt.auth.jwt.utils;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;

@@ -1,10 +1,10 @@
-package ai.auth.jwt.service.impl;
+package com.txt.auth.jwt.service.impl;
 
-import ai.auth.jwt.domain.RandomCity;
-import ai.auth.jwt.domain.User;
-import ai.auth.jwt.repository.RandomCityRepository;
-import ai.auth.jwt.repository.UserRepository;
-import ai.auth.jwt.service.GenericService;
+import com.txt.auth.jwt.entities.RandomCity;
+import com.txt.auth.jwt.entities.auth.User;
+import com.txt.auth.jwt.repository.RandomCityRepository;
+import com.txt.auth.jwt.repository.UserRepository;
+import com.txt.auth.jwt.service.GenericService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

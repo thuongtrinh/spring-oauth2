@@ -1,14 +1,13 @@
-package ai.auth.jwt;
+package com.txt.auth.jwt;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
+
 
 @SpringBootApplication
-@ComponentScan("ai.auth.jwt.*")
-public class Application {
+public class SpringBootOAuth2JwtApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(SpringBootOAuth2JwtApplication.class, args);
     }
 }

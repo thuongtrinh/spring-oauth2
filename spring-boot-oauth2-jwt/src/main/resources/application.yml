@@ -1,0 +1,22 @@
+security:
+    encoding-strength: 256
+    security-realm: Spring Boot JWT Example Realm
+    signing-key: MaYzkSjmkzPC57L
+
+spring:
+    application:
+        name: jwt-springBoot-oauth
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        password: ${DATABASE_PASSWORD:123456}
+        url: jdbc:postgresql://localhost:5432/oauth2_database?ApplicationName=authentication
+        username: ${DATABASE_USERNAME:postgres}
+    jpa:
+        hibernate:
+            ddl-auto: none
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.PostgreSQLDialect
+        show-sql: true
+    main:
+        allow-bean-definition-overriding: true
