@@ -1,4 +1,4 @@
-package com.txt.config;
+package com.txt.oauthlogin.config;
 
 import java.util.ArrayList;
 import java.util.List;

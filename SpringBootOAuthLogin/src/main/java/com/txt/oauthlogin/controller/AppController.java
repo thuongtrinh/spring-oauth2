@@ -1,4 +1,4 @@
-package com.txt.controller;
+package com.txt.oauthlogin.controller;
 
 import java.security.Principal;
 
