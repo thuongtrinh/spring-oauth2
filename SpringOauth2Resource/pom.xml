@@ -2,8 +2,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.txt</groupId>
-    <artifactId>oauth2</artifactId>
-    <name>oauth2</name>
+    <artifactId>spring-oauth2-resource</artifactId>
+    <name>spring-oauth2-resource</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
