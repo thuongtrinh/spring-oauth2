@@ -20,3 +20,6 @@ spring:
           google:
             client-id: 800107701071-6ajh5sln3vk7pgo42bsbetuhtdefbp3m.apps.googleusercontent.com
             client-secret: s6e-rR-BxL3HBCRSeBbbNk5d
+
+# Reference
+#https://www.baeldung.com/spring-security-5-oauth2-login
