@@ -12,7 +12,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/jwttest")
+@RequestMapping("/api")
 public class ResourceController {
 
     @Autowired

@@ -2,8 +2,8 @@ package com.txt.auth.jwt.service.impl;
 
 import com.txt.auth.jwt.entities.RandomCity;
 import com.txt.auth.jwt.entities.auth.User;
-import com.txt.auth.jwt.repository.RandomCityRepository;
-import com.txt.auth.jwt.repository.UserRepository;
+import com.txt.auth.jwt.repositories.RandomCityRepository;
+import com.txt.auth.jwt.repositories.UserRepository;
 import com.txt.auth.jwt.service.GenericService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
