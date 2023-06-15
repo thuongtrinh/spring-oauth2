@@ -1,4 +1,4 @@
-package com.codeaches.oauth2.authorization.server;
+package com.codeaches.oauth2.authorization.server.config;
 
 import javax.sql.DataSource;
 

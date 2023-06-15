@@ -1,4 +1,4 @@
-package com.codeaches.carinventoryservice;
+package com.codeaches.carinventoryservice.controller;
 
 import java.util.HashMap;
 import java.util.HashSet;

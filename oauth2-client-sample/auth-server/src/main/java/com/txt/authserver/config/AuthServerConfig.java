@@ -1,4 +1,4 @@
-package com.txt.authserver;
+package com.txt.authserver.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -35,7 +35,7 @@ public class AuthServerConfig extends AuthorizationServerConfigurerAdapter {
         clients.inMemory()
                 .withClient("exampleClient")
                 .secret("{noop}exampleSecret")
-                .authorizedGrantTypes("password", "refresh_token", "client_credentials")
+                .authorizedGrantTypes("password", "refresh_token", "client_credentials", "authorization_code")
                 .authorities("ROLE_CLIENT", "ROLE_TRUSTED_CLIENT")
                 .scopes("read", "write", "trust")
                 .accessTokenValiditySeconds(300)

@@ -1,4 +1,4 @@
-package com.txt.resource.server;
+package com.txt.resource.server.controller;
 
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

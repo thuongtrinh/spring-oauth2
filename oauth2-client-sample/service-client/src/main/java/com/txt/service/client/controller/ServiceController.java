@@ -1,4 +1,4 @@
-package com.txt.service.client;
+package com.txt.service.client.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
