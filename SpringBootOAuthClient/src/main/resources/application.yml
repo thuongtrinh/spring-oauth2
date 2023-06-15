@@ -1,9 +1,7 @@
 server:
   servlet:
     context-path: /OAuthDemo
-    session:
-        cookie:
-          name: UISESSION
+    session.cookie.name: UISESSION
   port: 8080
 
 github:

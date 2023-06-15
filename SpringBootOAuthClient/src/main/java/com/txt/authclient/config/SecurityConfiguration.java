@@ -1,4 +1,4 @@
-package com.txt.config;
+package com.txt.authclient.config;
 
 import javax.servlet.Filter;
 
