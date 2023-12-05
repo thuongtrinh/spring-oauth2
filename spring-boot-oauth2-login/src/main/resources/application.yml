@@ -17,9 +17,15 @@ spring:
           facebook:
             client-id: 827574691101430
             client-secret: 3ad621e71ecd0d0771aa81e21e668732
+            scope:
+              - email
+              - public_profile
           google:
             client-id: 800107701071-6ajh5sln3vk7pgo42bsbetuhtdefbp3m.apps.googleusercontent.com
             client-secret: s6e-rR-BxL3HBCRSeBbbNk5d
+            scope:
+              - email
+              - profile
 
 # Reference
 #https://www.baeldung.com/spring-security-5-oauth2-login
