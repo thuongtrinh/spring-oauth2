@@ -1,4 +1,4 @@
-package com.txt.authclient.controller;
+package com.txt.oauth2.github.controller;
 
 import java.security.Principal;
 
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-public class AppController {
+public class LoginController {
 
     @RequestMapping(value = "/welcome", method = RequestMethod.GET)
     public String hello(Model model, Principal principal) {
@@ -20,4 +20,10 @@ public class AppController {
     public String error(Model model) {
         return "error";
     }
+
+    @RequestMapping(value = "/login", method = RequestMethod.GET)
+    public String login(Model model) {
+        return "login";
+    }
+
 }
