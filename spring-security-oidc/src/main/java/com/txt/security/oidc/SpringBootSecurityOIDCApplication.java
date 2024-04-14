@@ -1,11 +1,12 @@
-package com.txt.oauthsso;
+package com.txt.security.oidc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootOAuthSSOApplication {
+public class SpringBootSecurityOIDCApplication {
+
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootOAuthSSOApplication.class, args);
+        SpringApplication.run(SpringBootSecurityOIDCApplication.class, args);
     }
 }
