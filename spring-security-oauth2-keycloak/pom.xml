@@ -9,10 +9,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>spring-boot-rest-simple</module>
+        <module>oauth2-authentication-server</module>
         <module>oauth2-authentication-server-keycloak</module>
         <module>oauth2-jwt</module>
-        <module>spring-boot-starter-parent</module>
+        <module>oauth2-rest</module>
         <module>oauth2-sso</module>
     </modules>
 
